@@ -48,6 +48,18 @@ System.out.println("Multiplication of all the elements of an array :"+mul);
 }
         Integer [] arryz={10,20,30,40,50,60};
 reverse(arryz);
-
+integer[] array = new integer[10];
+System.out.println("Enter the elements of the array: ");  
+for(int i=0; i<n; i++)  
+{  
+//reading array elements from the user   
+array[i]=sc.nextInt();  
+}  
+sum=Calculate(array);
+System.out.println("Sum of all the elements of an array: " + sum); 
+mul=1;
+mul=multiply(array);
+System.out.println("Multiplication of all the elements of an array :"+mul);
+}
 } 
     
