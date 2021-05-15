@@ -10,4 +10,18 @@ public class SumofArray {
            sum = sum + arr[i];  
         }  
         return sum;  
+    
+        public static int multiply(int[] arr){
+     int Mul =1;  
+        //Loop through the array to calculate sum of elements  
+        for (int i = 0; i < arr.length; i++) {  
+           Mul = Mul * arr[i];     
+        
+        
+    }
+    return Mul;
+
+    
+    
+    
     } 
