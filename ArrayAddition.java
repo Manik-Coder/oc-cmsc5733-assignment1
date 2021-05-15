@@ -60,6 +60,7 @@ System.out.println("Sum of all the elements of an array: " + sum);
 mul=1;
 mul=multiply(array);
 System.out.println("Multiplication of all the elements of an array :"+mul);
-}
+//adding comment for branching in part 10
+    }
 } 
     
