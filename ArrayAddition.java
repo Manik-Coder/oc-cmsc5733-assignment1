@@ -10,7 +10,7 @@ public class SumofArray {
            sum = sum + arr[i];  
         }  
         return sum;  
-    
+ //making some changes    
         public static int multiply(int[] arr){
      int Mul =1;  
         //Loop through the array to calculate sum of elements  
