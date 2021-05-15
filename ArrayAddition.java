@@ -21,6 +21,12 @@ public class SumofArray {
     }
     return Mul;
     }
+            static void reverse(Integer a[])
+    {
+        Collections.reverse(Arrays.asList(a));
+        System.out.println(Arrays.asList(a));
+    }
+
    public static void main(String[] args)
 {
 int n;  
@@ -40,5 +46,8 @@ mul=1;
 mul=multiply(array);
 System.out.println("Multiplication of all the elements of an array :"+mul);
 }
+        Integer [] arryz={10,20,30,40,50,60};
+reverse(arryz);
+
 } 
     
