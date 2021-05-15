@@ -41,3 +41,4 @@ mul=multiply(array);
 System.out.println("Multiplication of all the elements of an array :"+mul);
 }
 } 
+    
